@@ -2122,4 +2122,7 @@ function MediaStreamRecorder(mediaStream, config) {
             if (self.recordingCallback) {
                 self.recordingCallback(self.blob);
                 self.recordingCallback = null;
-            }
+            } 
+        } 
+    } 
+}
